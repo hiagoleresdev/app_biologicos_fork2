@@ -1,0 +1,31 @@
+[
+    {
+        "ucum_code": "10.L/min",
+        "description_of_the_unit": "10 liter per minute"
+    },
+    {
+        "ucum_code": "10.L/(min.m2)",
+        "description_of_the_unit": "10 liter per minute per square meter"
+    },
+    {
+        "ucum_code": "10.uN.s/(cm5.m2)",
+        "description_of_the_unit": "10 micronewton second per centimeter to the fifth power per square meter"
+    },
+    {
+        "ucum_code": "10*4/uL",
+        "description_of_the_unit": "10 thousand per microliter"
+    },
+    {
+        "ucum_code": "10*8",
+        "description_of_the_unit": "100 million "
+    },
+    {
+        "ucum_code": "24.h",
+        "description_of_the_unit": "24 hour"
+    },
+
+    {
+        "ucum_code": "Lista de unidade pré indicada",
+        "description_of_the_unit": "z score"
+    }
+]

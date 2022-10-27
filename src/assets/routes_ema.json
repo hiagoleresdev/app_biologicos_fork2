@@ -1,0 +1,582 @@
+[
+    {
+        "id": "100000073564",
+        "description": "Auricular use"
+    },
+    {
+        "id": "100000073565",
+        "description": "Beak dipping"
+    },
+    {
+        "id": "100000073566",
+        "description": "Cutaneous use"
+    },
+    {
+        "id": "100000073567",
+        "description": "Dental use"
+    },
+    {
+        "id": "100000073568",
+        "description": "Dipping"
+    },
+    {
+        "id": "100000073569",
+        "description": "Endocervical use"
+    },
+    {
+        "id": "100000073570",
+        "description": "Endosinusial use"
+    },
+    {
+        "id": "100000073571",
+        "description": "Endotracheopulmonary use"
+    },
+    {
+        "id": "100000073572",
+        "description": "Epidural use"
+    },
+    {
+        "id": "100000073573",
+        "description": "Epilesional use"
+    },
+    {
+        "id": "100000073574",
+        "description": "Extraamniotic use"
+    },
+    {
+        "id": "100000073575",
+        "description": "Foot-stab use"
+    },
+    {
+        "id": "100000073576",
+        "description": "Gastroenteral use"
+    },
+    {
+        "id": "100000073577",
+        "description": "Gastric use"
+    },
+    {
+        "id": "100000073578",
+        "description": "Gingival use"
+    },
+    {
+        "id": "100000073579",
+        "description": "Haemodialysis"
+    },
+    {
+        "id": "100000073580",
+        "description": "In drinking water/milk use"
+    },
+    {
+        "id": "100000073581",
+        "description": "In ovo"
+    },
+    {
+        "id": "100000073582",
+        "description": "In-feed use"
+    },
+    {
+        "id": "100000073583",
+        "description": "In-hive use"
+    },
+    {
+        "id": "100000073584",
+        "description": "Inhalation use"
+    },
+    {
+        "id": "100000073585",
+        "description": "Intestinal use"
+    },
+    {
+        "id": "100000073586",
+        "description": "Intraamniotic use"
+    },
+    {
+        "id": "100000073587",
+        "description": "Intraarterial use"
+    },
+    {
+        "id": "100000073588",
+        "description": "Intraarticular use"
+    },
+    {
+        "id": "100000073589",
+        "description": "Intrabursal use"
+    },
+    {
+        "id": "100000073590",
+        "description": "Intracardiac use"
+    },
+    {
+        "id": "100000073591",
+        "description": "Intracavernous use"
+    },
+    {
+        "id": "100000073592",
+        "description": "Intracerebral use"
+    },
+    {
+        "id": "100000073593",
+        "description": "Intracervical use"
+    },
+    {
+        "id": "100000073594",
+        "description": "Intracoronary use"
+    },
+    {
+        "id": "100000073595",
+        "description": "Intradermal use"
+    },
+    {
+        "id": "100000073596",
+        "description": "Intradiscal use"
+    },
+    {
+        "id": "100000073597",
+        "description": "Intralesional use"
+    },
+    {
+        "id": "100000073598",
+        "description": "Intralymphatic use"
+    },
+    {
+        "id": "100000073599",
+        "description": "Intramammary use"
+    },
+    {
+        "id": "100000073600",
+        "description": "Intramuscular use"
+    },
+    {
+        "id": "100000073601",
+        "description": "Intraocular use"
+    },
+    {
+        "id": "100000073602",
+        "description": "Intraosseous use"
+    },
+    {
+        "id": "100000073603",
+        "description": "Intrapericardial use"
+    },
+    {
+        "id": "100000073604",
+        "description": "Intraperitoneal use"
+    },
+    {
+        "id": "100000073605",
+        "description": "Intrapleural use"
+    },
+    {
+        "id": "100000073606",
+        "description": "Intraruminal use"
+    },
+    {
+        "id": "100000073607",
+        "description": "Intrasternal use"
+    },
+    {
+        "id": "100000073608",
+        "description": "Intrathecal use"
+    },
+    {
+        "id": "100000073609",
+        "description": "Intratumoral use"
+    },
+    {
+        "id": "100000073610",
+        "description": "Intrauterine use"
+    },
+    {
+        "id": "100000073611",
+        "description": "Intravenous use"
+    },
+    {
+        "id": "100000073612",
+        "description": "Intravesical use"
+    },
+    {
+        "id": "100000073613",
+        "description": "Intravitreal use"
+    },
+    {
+        "id": "100000073614",
+        "description": "Laryngopharyngeal use"
+    },
+    {
+        "id": "100000073615",
+        "description": "Nasal use"
+    },
+    {
+        "id": "100000073616",
+        "description": "Nebulisation use"
+    },
+    {
+        "id": "100000073617",
+        "description": "Ocular use"
+    },
+    {
+        "id": "100000073618",
+        "description": "Oculonasal use"
+    },
+    {
+        "id": "100000073619",
+        "description": "Oral use"
+    },
+    {
+        "id": "100000073620",
+        "description": "Oromucosal use"
+    },
+    {
+        "id": "100000073621",
+        "description": "Oropharyngeal use"
+    },
+    {
+        "id": "100000073622",
+        "description": "Paravertebral use"
+    },
+    {
+        "id": "100000073623",
+        "description": "Periarticular use"
+    },
+    {
+        "id": "100000073624",
+        "description": "Perineural use"
+    },
+    {
+        "id": "100000073625",
+        "description": "Periodontal use"
+    },
+    {
+        "id": "100000073626",
+        "description": "Posterior juxtascleral use"
+    },
+    {
+        "id": "100000073627",
+        "description": "Pour-on use"
+    },
+    {
+        "id": "100000073628",
+        "description": "Rectal use"
+    },
+    {
+        "id": "100000073629",
+        "description": "Route of administration not applicable"
+    },
+    {
+        "id": "100000073630",
+        "description": "Skin scarification"
+    },
+    {
+        "id": "100000073631",
+        "description": "Spot-on use"
+    },
+    {
+        "id": "100000073632",
+        "description": "Subconjunctival use"
+    },
+    {
+        "id": "100000073633",
+        "description": "Subcutaneous use"
+    },
+    {
+        "id": "100000073634",
+        "description": "Sublingual use"
+    },
+    {
+        "id": "100000073635",
+        "description": "Teat use"
+    },
+    {
+        "id": "100000073636",
+        "description": "Top-dressing use"
+    },
+    {
+        "id": "100000073637",
+        "description": "Transdermal use"
+    },
+    {
+        "id": "100000073638",
+        "description": "Urethral use"
+    },
+    {
+        "id": "100000073639",
+        "description": "Vaginal use"
+    },
+    {
+        "id": "100000073640",
+        "description": "Water-borne use"
+    },
+    {
+        "id": "100000073641",
+        "description": "Wing-web-stab use"
+    },
+    {
+        "id": "100000075237",
+        "description": "Intraileal use"
+    },
+    {
+        "id": "100000075238",
+        "description": "Intragastric use"
+    },
+    {
+        "id": "100000075239",
+        "description": "Intraepidermal use"
+    },
+    {
+        "id": "100000075240",
+        "description": "Intradural use"
+    },
+    {
+        "id": "100000075241",
+        "description": "Intraduodenal use"
+    },
+    {
+        "id": "100000075242",
+        "description": "Intranasal use"
+    },
+    {
+        "id": "100000075243",
+        "description": "Local use"
+    },
+    {
+        "id": "100000075244",
+        "description": "Not mentioned"
+    },
+    {
+        "id": "100000075245",
+        "description": "In vitro use"
+    },
+    {
+        "id": "100000075246",
+        "description": "Intraabdominal use"
+    },
+    {
+        "id": "100000075247",
+        "description": "Interstitial use"
+    },
+    {
+        "id": "100000075248",
+        "description": "Infiltration"
+    },
+    {
+        "id": "100000075249",
+        "description": "Implantation"
+    },
+    {
+        "id": "100000075250",
+        "description": "Enteral use"
+    },
+    {
+        "id": "100000075251",
+        "description": "Conjunctival use"
+    },
+    {
+        "id": "100000075252",
+        "description": "Transmucosal use"
+    },
+    {
+        "id": "100000075253",
+        "description": "Soft tissue use"
+    },
+    {
+        "id": "100000075254",
+        "description": "Percutaneous use"
+    },
+    {
+        "id": "100000075255",
+        "description": "Nasogastric use"
+    },
+    {
+        "id": "100000075256",
+        "description": "Intraventricular use"
+    },
+    {
+        "id": "100000075257",
+        "description": "Intravascular use"
+    },
+    {
+        "id": "100000075258",
+        "description": "Intratympanic use"
+    },
+    {
+        "id": "100000075259",
+        "description": "Intrapulmonary use"
+    },
+    {
+        "id": "100000075260",
+        "description": "Intraprostatic use"
+    },
+    {
+        "id": "100000075261",
+        "description": "Unknown use"
+    },
+    {
+        "id": "100000075262",
+        "description": "Topical use"
+    },
+    {
+        "id": "100000075263",
+        "description": "Subdermal use"
+    },
+    {
+        "id": "100000075264",
+        "description": "Retrobulbar use"
+    },
+    {
+        "id": "100000075265",
+        "description": "Respiratory use"
+    },
+    {
+        "id": "100000075266",
+        "description": "Parenteral use"
+    },
+    {
+        "id": "100000075267",
+        "description": "Other use"
+    },
+    {
+        "id": "100000075268",
+        "description": "Ophthalmic use"
+    },
+    {
+        "id": "100000075269",
+        "description": "Iontophoresis"
+    },
+    {
+        "id": "100000075270",
+        "description": "Intravenous drip use"
+    },
+    {
+        "id": "100000075271",
+        "description": "Intravenous bolus use"
+    },
+    {
+        "id": "100000075272",
+        "description": "Intratracheal use"
+    },
+    {
+        "id": "100000075273",
+        "description": "Intrahepatic use"
+    },
+    {
+        "id": "100000075274",
+        "description": "Intracisternal use"
+    },
+    {
+        "id": "100000075275",
+        "description": "Buccal use"
+    },
+    {
+        "id": "100000075276",
+        "description": "Intracartilaginous use"
+    },
+    {
+        "id": "100000075553",
+        "description": "In drinking water use"
+    },
+    {
+        "id": "100000075554",
+        "description": "Submucosal use"
+    },
+    {
+        "id": "100000075555",
+        "description": "Intramuscular and intravenous use"
+    },
+    {
+        "id": "100000075556",
+        "description": "Extracorporeal use"
+    },
+    {
+        "id": "100000075557",
+        "description": "Periosseous use"
+    },
+    {
+        "id": "100000075558",
+        "description": "Subgingival use"
+    },
+    {
+        "id": "100000075559",
+        "description": "Epicutaneous use"
+    },
+    {
+        "id": "100000075673",
+        "description": "Intraepidermal use"
+    },
+    {
+        "id": "100000111213",
+        "description": "Intracorneal use"
+    },
+    {
+        "id": "100000111214",
+        "description": "Intrameningeal use"
+    },
+    {
+        "id": "100000111215",
+        "description": "Intrathoracic use"
+    },
+    {
+        "id": "100000111216",
+        "description": "Occlusive dressing technique use"
+    },
+    {
+        "id": "100000111217",
+        "description": "Transplacental use"
+    },
+    {
+        "id": "100000125763",
+        "description": "Intracameral use"
+    },
+    {
+        "id": "100000143556",
+        "description": "Nail use"
+    },
+    {
+        "id": "100000155948",
+        "description": "Intraportal use"
+    },
+    {
+        "id": "100000156091",
+        "description": "Intracholangiopancreatic use"
+    },
+    {
+        "id": "100000156092",
+        "description": "Peritumoral use"
+    },
+    {
+        "id": "100000157797",
+        "description": "Intraglandular use"
+    },
+    {
+        "id": "100000170084",
+        "description": "Subretinal use"
+    },
+    {
+        "id": "100000170279",
+        "description": "Intracerebroventricular use"
+    },
+    {
+        "id": "100000170847",
+        "description": "Coarse spray"
+    },
+    {
+        "id": "200000010603",
+        "description": "Intraputaminal use"
+    },
+    {
+        "id": "200000010643",
+        "description": "Topical"
+    },
+    {
+        "id": "200000010644",
+        "description": "Transplacental"
+    },
+    {
+        "id": "200000010645",
+        "description": "Transmammary"
+    },
+    {
+        "id": "200000012510",
+        "description": "instillation"
+    }
+]
