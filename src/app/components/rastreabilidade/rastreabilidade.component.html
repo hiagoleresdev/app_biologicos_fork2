@@ -8,20 +8,29 @@
           all_inbox
         </mat-icon>
       </span>
-      Rastreabilidade Geral
+      Rastreabilidade
     </h2>
 
   </div>
 
   <div class="container-margin">
 
-    <div class="division" [class.hide]="_form" style="padding-bottom: 17px;">
+    <!--<div class="division" [class.hide]="_form" style="padding-bottom: 17px;">
       <element-list [settings]="settings" [values]="values" (action)="elementListEvent($event)"></element-list>
     </div>
 
-    <!-- <rastreabilidade-info [forms]="_form" (action)="formEvent($event)" [class.hide]="!_form"></rastreabilidade-info> -->
+    <rastreabilidade-info [forms]="_form" (action)="formEvent($event)" [class.hide]="!_form"></rastreabilidade-info> -->
 
 
   </div>
-
+  <div class="block m10" style="margin: auto;">
+  <div class="division">
+    
+      A tela abaixo é sugerida para identificar todos medicamentos administrados,
+      para visalizar lote e validade, 
+          com indicação rápida sobre troca/substituição e evento adverso. <br>
+    <img src="assets/busca.png">
+    <img src="assets/rastreabilidade.png">
+  </div>
+  </div>
 </div>

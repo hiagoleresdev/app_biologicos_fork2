@@ -69,7 +69,7 @@ export class SidenavHeaderComponent implements AfterViewChecked {
       },
       {
         'id': '0007',
-        'label': 'Notificação',
+        'label': 'Avaliação de resultados',
         'content': 'circle_notifications',
         'content_img': false,
         'icon_color': '',

@@ -62,7 +62,7 @@ export class IntercambialidadeComponent implements AfterViewInit, OnDestroy {
         radio: false,
         name: '',
         consulta_label: 'Consultar',
-        consulta_placeholder: 'Digite aqui algo relacionado a listagem'
+        consulta_placeholder: 'Faça a busca por paciente, registro hospitalar, medicamento ou período de dispensação'
       }
     });
     const _lresult = [];
@@ -84,6 +84,7 @@ export class IntercambialidadeComponent implements AfterViewInit, OnDestroy {
   /**
    * Methods
    */
+  
 
   private getIntercambialidade(data){
     const result = [];
