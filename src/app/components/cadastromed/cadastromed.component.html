@@ -2,26 +2,25 @@
 
   <div class="division" style="padding: 5px 5px 0 10px">
 
-
-    <br>
     <mat-divider></mat-divider> <!-- divisoria -->
-    <br>
+
     <h2 class="raleway">
       <mat-icon style="margin: 15px; font-size: 40px;color: #117dbb;"></mat-icon>
-      Cadastrar/atualizar medicamentos
+      Cadastrar/atualizar cadastro de medicamentos biológico/biossimilar
       <!--  -->
     </h2>
+    <!-- informações sobre a finalidade da tela -->
     <p
       style="color: #4F4F4F;font-size: 14px; font-family: inherit; font-weight: inherit; line-height: inherit; text-align: inherit;">
-
-      <!-- informações sobre a finalidade da tela -->
+      - Cadastre novos medicamentos seguindo as orientações de forma farmacêutica (unidade e apresentação) e apresentação disponíveis na bula.<br>
+      - Atualize a forma farmacêutica (unidade e apresentação) e apresentação de medicamentos já cadastrados, conforme bula do medicamento.
     </p>
 
 
     <div class="division" style="padding: 5px 5px 0 10px"></div>
     <!-- Filtro -->
     <mat-form-field>
-      <mat-label>Filtrar por medicamento</mat-label>
+      <mat-label>Buscar medicamento cadastrado</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Digite as primeiras letras do medicamento" #input>
     </mat-form-field>
 
@@ -32,7 +31,7 @@
 
     <mat-divider></mat-divider> <!-- divisoria -->
     <div class="example-button-row">
-      <button mat-stroked-button color="primary">Cadastrar novo medicamento</button>
+      <button mat-stroked-button color="primary">Cadastrar novo medicamento biológico/biossimilar</button>
     </div>
     <br><br>
     <mat-form-field class="division" style="width: 90%" floatLabel="always">
@@ -45,6 +44,13 @@
       <input type="text" [(ngModel)]="medicamento" matInput placeholder="Digite o nome do medicamento">
     </mat-form-field>
     <p>{{medicamento}}</p>
+    <mat-form-field class="division" style="width: 90%" floatLabel="always" >
+      <mat-label>Informação sobre o laboratório</mat-label>
+      <input matInput placeholder="Para identificar biológico/biossimilar">
+    </mat-form-field>
+
+
+    
     <!-- Forma farmaceutica -->
     <p
       style="color: #4F4F4F;font-size: 14px; font-family: inherit; font-weight: inherit; line-height: inherit; text-align: inherit;">
@@ -53,19 +59,19 @@
     <mat-form-field appearance="fill">
       <mat-label>Dose</mat-label>
       <mat-select>
-        <mat-option value="option">1</mat-option>
+        <mat-option value="option">Indicada na prescrição</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Unidade</mat-label>
       <mat-select>
-        <mat-option value="option">mg</mat-option>
+        <mat-option value="option">Selecione a(s) disponível(is)</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Apresentação</mat-label>
       <mat-select>
-        <mat-option value="option">xxxx</mat-option>
+        <mat-option value="option">Selecione a(s) disponível(is)</mat-option>
       </mat-select>
     </mat-form-field>
 
@@ -78,40 +84,39 @@
     <mat-form-field appearance="fill">
       <mat-label>Via de administração</mat-label>
       <mat-select>
-        <mat-option value="option">1</mat-option>
+        <mat-option value="option">Selecione a(s) via(s) indicada(s) </mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Intervalo</mat-label>
       <mat-select>
-        <mat-option value="option">mg</mat-option>
+        <mat-option value="option">Indicado na prescrição</mat-option>
       </mat-select>
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Duração</mat-label>
       <mat-select>
-        <mat-option value="option">xxxx</mat-option>
+        <mat-option value="option">Indicado na prescrição</mat-option>
       </mat-select>
     </mat-form-field>
     <br>
-
+     <!-- Transformação -->
+    <p
+      style="color: #dd0e0e;font-size: 14px; font-family: inherit; font-weight: inherit; line-height: inherit; text-align: inherit;">
+      A bula do medicamento prevê transformação?
+    </p>
     <div class="example-button-row">
-      <button mat-stroked-button color="warn">Diluir (transformação prevista) ?)</button>
+       <button mat-stroked-button color="warn"> SIM </button> <button mat-stroked-button color="warn"> NÃO </button>
     </div>
+    <mat-form-field appearance="fill">
+      <mat-label>Transformação prevista </mat-label>
+      <mat-select>
+        <mat-option value="option">Selecione o componente indicado</mat-option>
+      </mat-select>
+    </mat-form-field>
+    
+
     <br>
-
-    <mat-form-field class="division" style="width: 90%" floatLabel="always">
-      <mat-label>Justificativa</mat-label>
-
-      <input matInput placeholder="">
-    </mat-form-field>
-
-    <mat-form-field class="division" style="width: 90%" floatLabel="always">
-      <mat-label>Observação</mat-label>
-
-      <input matInput placeholder="">
-    </mat-form-field>
-    <br><br>
     <div class="example-button-row">
       <button mat-stroked-button color="primary">Cadastrar novo medicamento</button>
     </div>

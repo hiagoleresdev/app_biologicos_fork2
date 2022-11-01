@@ -28,15 +28,17 @@
           {{list_item.nome}}
         </mat-option>
       </mat-autocomplete>
-
       <mat-hint style="font-size: 12px; color: #f44336;"
         *ngIf="_id_medicamentoCtrl?.touched && _id_medicamentoCtrl?.invalid">
         Medicamento obrigatória
       </mat-hint>
-
     </mat-form-field>
-
+    <p style="font-size: 14px; color: #4513d0;">
+    Informação sobre laboratório para caracterizar biológico/biossimilar
+  </p>
   </div>
+<br>
+
 
   <form [formGroup]="fb" *ngIf="fb">
 
@@ -189,8 +191,10 @@
 
     <div class="division" style="padding: 7px;">
       <div class="division">
-        <p style="font-size: 18px;">
-          Diluir (transformação prevista): {{is_dilutable ? 'Sim' : 'Não'}}
+        <p style="font-size: 20px; color: #f44336;">
+          Transformação prevista: {{is_dilutable ? 'Sim' : 'Não'}}
+          </p>
+          <p style="font-size: 18px;">
           <span style="margin-left: 7px;">
             <button mat-button style="background-color: #90f3a6;" (click)="is_dilutable = true">SIM, diluir </button>
             <button mat-button style="margin-left: 7px; background-color: #f49595;"
@@ -206,16 +210,16 @@
         <textarea matInput required formControlName="justification"
           placeholder="" cdkTextareaAutosize cdkAutosizeMinRows="2"
           cdkAutosizeMaxRows="3"></textarea>
-        <mat-hint style="font-size: 12px; color: #f44336;" *ngIf="fb.get('justification')?.invalid">
+        <mat-hint style="font-size: 12px; color: #181616;" *ngIf="fb.get('justification')?.invalid">
           
         </mat-hint>
       </mat-form-field>
 
       <mat-form-field class="block m6" hideRequiredMarker="false" floatLabel="always">
-        <mat-label>Observação</mat-label>
+        <mat-label>Observação/instrução para dispensação ou administração</mat-label>
         <textarea matInput required formControlName="note" placeholder=" "
           cdkTextareaAutosize cdkAutosizeMinRows="2" cdkAutosizeMaxRows="3"></textarea>
-        <mat-hint style="font-size: 12px; color: #f44336;" *ngIf="fb.get('note')?.invalid">
+        <mat-hint style="font-size: 12px; color: #181616;" *ngIf="fb.get('note')?.invalid">
           
         </mat-hint>
       </mat-form-field>
