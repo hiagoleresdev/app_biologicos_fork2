@@ -155,7 +155,7 @@ export class AdministracaoComponent implements AfterViewInit, OnDestroy {
           validators: [], disabled: true, hideRequired: true
         },
         {
-          displayed: 'Forma farmaceutica', placeholder: 'Forma farmaceutica',
+          displayed: 'Forma farmacêutica', placeholder: 'Forma farmaceutica',
           favorite: null, name: 'pharmaceutical_form', value: `Dose: ${data.pharmaceutical_form.dose}, Unidade de medida: ${data.pharmaceutical_form.unit}, Apresentação: ${data.pharmaceutical_form.presentation} `,
           validators: [], disabled: true, hideRequired: true
         },
