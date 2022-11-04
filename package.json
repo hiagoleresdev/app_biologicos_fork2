@@ -20,7 +20,7 @@
   "private": true,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server",
     "build": "ng build --prod",
     "test": "ng test",
     "update": "ng update @angular/cli @angular/core --next=true",
