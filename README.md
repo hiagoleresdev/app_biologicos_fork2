@@ -10,4 +10,3 @@ Saiba mais sobre o projeto em [https://about](https://about).
 
 <!--
 ![Image of beneficios](https://beneficios.png) -->
-teste Readme
