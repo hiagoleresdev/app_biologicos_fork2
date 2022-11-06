@@ -21,7 +21,7 @@
       <div class="division">
         <p style="font-size: 20px; color: #f44336;">
           O medicamento informado acima - incluindo as informações 
-          sobre laboratório - esta disponível para dispensação? 
+          sobre laboratório - está disponível para dispensação? 
           {{fb.value.disponivel ? 'Sim' : 'Não'}}
         <br>
           <span style="margin-left: 7px;">
@@ -43,12 +43,12 @@
         <mat-form-field class="block m4" hideRequiredMarker="false" floatLabel="always" style="padding-right: 7px;">
           <mat-label>Lote</mat-label>
           <input aria-label="Lote" matInput type="text" placeholder="Insira o lote" formControlName="lote">
-          <mat-error align="end" *ngIf="fb.get('lote')?.invalid">Lote obrigatorio</mat-error>
+          <mat-error align="end" *ngIf="fb.get('lote')?.invalid">Lote obrigatório</mat-error>
         </mat-form-field>
         <mat-form-field class="block m4" hideRequiredMarker="false" floatLabel="always">
           <mat-label>Validade</mat-label>
           <input aria-label="Validade" matInput type="text" placeholder="Insira a data ex: 01/01/2001" formControlName="validade">
-          <mat-error align="end" *ngIf="fb.get('validade')?.invalid">Validade obrigatoria</mat-error>
+          <mat-error align="end" *ngIf="fb.get('validade')?.invalid">Validade obrigatória</mat-error>
         </mat-form-field>
       </div>
 

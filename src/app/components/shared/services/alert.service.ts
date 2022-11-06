@@ -21,7 +21,7 @@ export class AlertService {
   public static readonly MSG_LIST = {
     _1_ERROR_COPY_LINK: 'Ocorreu um problema ao copiar o Link!',
     _2_SUCESS_COPY_LINK: 'Link copiado !',
-    _3_CHECK_REQUIREDS: 'Por favor, verifique os campos obrigatorios !',
+    _3_CHECK_REQUIREDS: 'Por favor, verifique os campos obrigatórios !',
     _4_CHECK_EMPTY: 'Por favor, verifique se os campos estão preenchidos !',
     _5_NOT_FOUND_REDIRECT: 'Origem da associação não encontrada, redirecionando para inicio em 3 segundos.',
     _6_ERROR_TRY_AGAIN: 'Ocorreu um erro ao carregar, Tente mais tarde! ',

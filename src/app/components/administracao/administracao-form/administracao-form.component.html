@@ -26,19 +26,19 @@
         <mat-form-field class="block m4" hideRequiredMarker="false" floatLabel="always" style="padding-right: 7px;">
           <mat-label>Início</mat-label>
           <input aria-label="Início" matInput type="text" placeholder="01/01/2021 13:51" formControlName="inicio">
-          <mat-error align="end" *ngIf="fb.get('inicio')?.invalid">Início obrigatoria</mat-error>
+          <mat-error align="end" *ngIf="fb.get('inicio')?.invalid">Início obrigatória</mat-error>
         </mat-form-field>
         <mat-form-field class="block m4" hideRequiredMarker="false" floatLabel="always">
           <mat-label>Fim</mat-label>
           <input aria-label="Fim" matInput type="text" placeholder="01/01/2021 14:52" formControlName="fim">
-          <mat-error align="end" *ngIf="fb.get('fim')?.invalid">Fim obrigatoria</mat-error>
+          <mat-error align="end" *ngIf="fb.get('fim')?.invalid">Fim obrigatória</mat-error>
         </mat-form-field>
 
         <div class="division">
           <mat-form-field class="block m12" hideRequiredMarker="false" floatLabel="always">
             <mat-label>Observação</mat-label>
             <input aria-label="obs" matInput type="text" placeholder="Observação" formControlName="obs">
-            <mat-error align="end" *ngIf="fb.get('obs')?.invalid">Observação obrigatoria</mat-error>
+            <mat-error align="end" *ngIf="fb.get('obs')?.invalid">Observação obrigatória</mat-error>
           </mat-form-field>
         </div>
       </div>
